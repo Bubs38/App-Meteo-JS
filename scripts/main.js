@@ -1,4 +1,4 @@
-const ClefApi = "495864698c18b64ce3aafab3623b3710";
+const ClefApi = "";
 let resultatsApi;
 
 const temps = document.querySelector(".temps");
@@ -52,5 +52,8 @@ const appelApi = (long, lat) => {
           heure[i].innerText = `${heureIncr} h`;
         }
       }
+
+      // temp pour 3h
+      for(let j = 0; j < tempPourH.length)
     });
 };
